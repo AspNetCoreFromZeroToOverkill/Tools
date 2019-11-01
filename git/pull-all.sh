@@ -1,5 +1,10 @@
 #!/bin/sh
 
+echo "-------------------------"
+echo "Pulling Tools..."
+git pull
+echo "-------------------------"
+
 while IFS="" read -r val || [ -n "$val" ]; do
     if [ -d "../../$val" ]; then
         echo "-------------------------"

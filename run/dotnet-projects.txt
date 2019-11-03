@@ -1,3 +1,0 @@
-../../Auth/src/CodingMilitia.PlayBall.Auth.Web
-../../GroupManagement/src/CodingMilitia.PlayBall.GroupManagement.Web
-../../WebFrontend/server/src/CodingMilitia.PlayBall.WebFrontend.BackForFront.Web

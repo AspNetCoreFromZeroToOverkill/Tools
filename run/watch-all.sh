@@ -4,10 +4,10 @@
 trap "exit" INT TERM ERR
 trap "kill 0" EXIT
 
-npm run serve --prefix ../../WebFrontend/client/ &
-
 while IFS="" read -r val || [ -n "$val" ]; do
-    dotnet watch --project $val run --environment Development &
-done < dotnet-projects.txt
+    cd ../../$val/
+    ./watch.sh &
+    cd ../Tools/run/
+done < runnable-projects.txt
 
 wait

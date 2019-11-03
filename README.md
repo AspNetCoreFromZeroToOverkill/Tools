@@ -10,7 +10,7 @@ A bunch of tools to help during the development of the PlayBall application
 
 ## About the scripts
 
-Every script has a couple of variants: Shell (e.g. Bash) and PowerShell.
+Every script has a couple of variants: Shell (e.g. Bash) and PowerShell (at least when I know how to do them 😛).
 
 You can use what makes more sense in your OS.
 

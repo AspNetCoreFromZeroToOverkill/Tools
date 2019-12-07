@@ -1,12 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+#
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GroupManagement", "GroupManagement", "{548A38DC-5D4E-45AB-8A87-73C2B6407B37}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Business", "..\..\GroupManagement\src\CodingMilitia.PlayBall.GroupManagement.Business\CodingMilitia.PlayBall.GroupManagement.Business.csproj", "{0C412885-7AF3-49DA-9C64-BD91A184210A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Business.Impl", "..\..\GroupManagement\src\CodingMilitia.PlayBall.GroupManagement.Business.Impl\CodingMilitia.PlayBall.GroupManagement.Business.Impl.csproj", "{DAEB1C50-3E7D-4E57-A3B1-00DB805017D2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Data", "..\..\GroupManagement\src\CodingMilitia.PlayBall.GroupManagement.Data\CodingMilitia.PlayBall.GroupManagement.Data.csproj", "{85866F01-E0CD-4974-9B5D-EBB84FC3FEB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Web", "..\..\GroupManagement\src\CodingMilitia.PlayBall.GroupManagement.Web\CodingMilitia.PlayBall.GroupManagement.Web.csproj", "{379DD9E9-1BF5-426C-BC69-62AB6DE0633F}"
 EndProject
@@ -36,6 +31,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E18BD1FC-AB5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{061B70DA-CE03-46EF-AE5E-7A148DDE6238}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Domain", "..\..\GroupManagement\src\CodingMilitia.PlayBall.GroupManagement.Domain\CodingMilitia.PlayBall.GroupManagement.Domain.csproj", "{BEFAD15C-C58F-4D0F-81B8-B06030760265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Infrastructure", "..\..\GroupManagement\src\CodingMilitia.PlayBall.GroupManagement.Infrastructure\CodingMilitia.PlayBall.GroupManagement.Infrastructure.csproj", "{6AE7D1EA-6B36-4679-88AD-E18B0DD2BF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Domain.Tests", "..\..\GroupManagement\tests\CodingMilitia.PlayBall.GroupManagement.Domain.Tests\CodingMilitia.PlayBall.GroupManagement.Domain.Tests.csproj", "{038D20EE-9A3A-4C64-AC55-42E9211B6B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.GroupManagement.Infrastructure.Tests", "..\..\GroupManagement\tests\CodingMilitia.PlayBall.GroupManagement.Infrastructure.Tests\CodingMilitia.PlayBall.GroupManagement.Infrastructure.Tests.csproj", "{E53221FB-9C64-489C-9B77-DE92B4F7396B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ADE6CED1-DC91-4768-8F44-8CEBC858AFA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,25 +56,15 @@ Global
 		{E18BD1FC-AB56-476D-B48E-298B1D9CACE0} = {A7AA1B44-4D79-48C2-B1A3-2CDE308028BA}
 		{F98CD50C-3555-4184-8C95-F794210117C6} = {E18BD1FC-AB56-476D-B48E-298B1D9CACE0}
 		{061B70DA-CE03-46EF-AE5E-7A148DDE6238} = {548A38DC-5D4E-45AB-8A87-73C2B6407B37}
-		{0C412885-7AF3-49DA-9C64-BD91A184210A} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
-		{DAEB1C50-3E7D-4E57-A3B1-00DB805017D2} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
-		{85866F01-E0CD-4974-9B5D-EBB84FC3FEB2} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
 		{379DD9E9-1BF5-426C-BC69-62AB6DE0633F} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
 		{0228FE4E-A64E-459C-B4E4-7BC27DEE0AAF} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
+		{BEFAD15C-C58F-4D0F-81B8-B06030760265} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
+		{6AE7D1EA-6B36-4679-88AD-E18B0DD2BF42} = {061B70DA-CE03-46EF-AE5E-7A148DDE6238}
+		{ADE6CED1-DC91-4768-8F44-8CEBC858AFA5} = {548A38DC-5D4E-45AB-8A87-73C2B6407B37}
+		{038D20EE-9A3A-4C64-AC55-42E9211B6B22} = {ADE6CED1-DC91-4768-8F44-8CEBC858AFA5}
+		{E53221FB-9C64-489C-9B77-DE92B4F7396B} = {ADE6CED1-DC91-4768-8F44-8CEBC858AFA5}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C412885-7AF3-49DA-9C64-BD91A184210A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C412885-7AF3-49DA-9C64-BD91A184210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C412885-7AF3-49DA-9C64-BD91A184210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C412885-7AF3-49DA-9C64-BD91A184210A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAEB1C50-3E7D-4E57-A3B1-00DB805017D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAEB1C50-3E7D-4E57-A3B1-00DB805017D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAEB1C50-3E7D-4E57-A3B1-00DB805017D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAEB1C50-3E7D-4E57-A3B1-00DB805017D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85866F01-E0CD-4974-9B5D-EBB84FC3FEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85866F01-E0CD-4974-9B5D-EBB84FC3FEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85866F01-E0CD-4974-9B5D-EBB84FC3FEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85866F01-E0CD-4974-9B5D-EBB84FC3FEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{379DD9E9-1BF5-426C-BC69-62AB6DE0633F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{379DD9E9-1BF5-426C-BC69-62AB6DE0633F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379DD9E9-1BF5-426C-BC69-62AB6DE0633F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -94,5 +89,21 @@ Global
 		{74F4B916-3BA6-41F2-84FE-E7EDFA8C3AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F4B916-3BA6-41F2-84FE-E7EDFA8C3AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74F4B916-3BA6-41F2-84FE-E7EDFA8C3AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFAD15C-C58F-4D0F-81B8-B06030760265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFAD15C-C58F-4D0F-81B8-B06030760265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFAD15C-C58F-4D0F-81B8-B06030760265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFAD15C-C58F-4D0F-81B8-B06030760265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE7D1EA-6B36-4679-88AD-E18B0DD2BF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE7D1EA-6B36-4679-88AD-E18B0DD2BF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE7D1EA-6B36-4679-88AD-E18B0DD2BF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE7D1EA-6B36-4679-88AD-E18B0DD2BF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038D20EE-9A3A-4C64-AC55-42E9211B6B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038D20EE-9A3A-4C64-AC55-42E9211B6B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038D20EE-9A3A-4C64-AC55-42E9211B6B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038D20EE-9A3A-4C64-AC55-42E9211B6B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53221FB-9C64-489C-9B77-DE92B4F7396B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53221FB-9C64-489C-9B77-DE92B4F7396B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53221FB-9C64-489C-9B77-DE92B4F7396B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53221FB-9C64-489C-9B77-DE92B4F7396B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

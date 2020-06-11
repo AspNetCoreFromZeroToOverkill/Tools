@@ -43,7 +43,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ADE6CED1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.Shared.EventBus", "..\..\Shared\src\CodingMilitia.PlayBall.Shared.EventBus\CodingMilitia.PlayBall.Shared.EventBus.csproj", "{CC9595A4-AC31-444B-AB90-C7C32185251E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.Auth.Events", "..\..\Auth\src\CodingMilitia.PlayBall.Auth.Events\CodingMilitia.PlayBall.Auth.Events.csproj", "{5FE061E5-2912-4CBF-9F36-A942AA9F140D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingMilitia.PlayBall.Auth.Events", "..\..\Auth\src\CodingMilitia.PlayBall.Auth.Events\CodingMilitia.PlayBall.Auth.Events.csproj", "{C07D10BA-3F15-4C51-9307-6047655CDDCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,7 +68,7 @@ Global
 		{E53221FB-9C64-489C-9B77-DE92B4F7396B} = {ADE6CED1-DC91-4768-8F44-8CEBC858AFA5}
 		{74F4B916-3BA6-41F2-84FE-E7EDFA8C3AD4} = {239DB852-972C-4084-BC8F-AADB54069777}
 		{CC9595A4-AC31-444B-AB90-C7C32185251E} = {239DB852-972C-4084-BC8F-AADB54069777}
-		{5FE061E5-2912-4CBF-9F36-A942AA9F140D} = {E18BD1FC-AB56-476D-B48E-298B1D9CACE0}
+		{C07D10BA-3F15-4C51-9307-6047655CDDCC} = {E18BD1FC-AB56-476D-B48E-298B1D9CACE0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{379DD9E9-1BF5-426C-BC69-62AB6DE0633F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -115,9 +115,9 @@ Global
 		{CC9595A4-AC31-444B-AB90-C7C32185251E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC9595A4-AC31-444B-AB90-C7C32185251E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC9595A4-AC31-444B-AB90-C7C32185251E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5FE061E5-2912-4CBF-9F36-A942AA9F140D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5FE061E5-2912-4CBF-9F36-A942AA9F140D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5FE061E5-2912-4CBF-9F36-A942AA9F140D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5FE061E5-2912-4CBF-9F36-A942AA9F140D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07D10BA-3F15-4C51-9307-6047655CDDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07D10BA-3F15-4C51-9307-6047655CDDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07D10BA-3F15-4C51-9307-6047655CDDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07D10BA-3F15-4C51-9307-6047655CDDCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
